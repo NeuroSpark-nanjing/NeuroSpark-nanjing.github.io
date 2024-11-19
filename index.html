@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神经火花(南京)科技有限公司 - 今日之火点燃未来之思</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+    <canvas id="space-bg"></canvas>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <div class="logo">神经火花（南京）科技有限公司</div>
+            <div class="nav-links">
+                <a href="#products">服务和产品</a>
+                <a href="#about">关于我们</a>
+                <a href="#team">团队介绍</a>
+                <a href="#news">最新动态</a>
+                <a href="#join">加入我们</a>
+                <a href="#contact">联系我们</a>
+            </div>
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="floating">神经火花(南京)科技有限公司</h1>
+            <p class="hero-subtitle">Igniting Tomorrow's Ideas Today</p>
+            <a href="#contact" class="cta-button">联系我们</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section">
+        <div class="section-content">
+            <h2 class="section-title">服务和产品</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">🌟</div>
+                    <h3>MoodPaltte 情绪调色盘</h3>
+                    <p>倾听你的心声，让情绪不再迷航。为每一个重视心理健康的人创造温暖港湾。通过AI智慧解读你的所思所想，自然记录每一刻感受。全天候守护情绪变化，助你探索内心世界。</p>
+                    <span class="launch-date">预计上市时间: 2024年第一季度</span>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🔬</div>
+                    <h3>GlucoInsight 血糖慧测</h3>
+                    <p>告别手动记录，健康尽在掌握。不只为患者，更为每个关心自己健康的你量身打造。智能识别你的饮食，无需手动输入。运动时实时监测血糖，让你尽情挥洒汗水。</p>
+                    <span class="launch-date">预计上市时间: 2025年第三季度</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-content">
+            <h2 class="section-title">关于我们</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">🏢</div>
+                    <h3>公司背景</h3>
+                    <p>神经火花(南京)科技有限公司成立于2023年，是一家由在校大学生创立的初创公司。我们的创始团队来自五湖四海，专业背景涵盖计算机科学、人工智能等领域。</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🔭</div>
+                    <h3>我们的愿景</h3>
+                    <p>作为新一代的创新者，我们希望用技术的力量激发出改变世界的火花。我们相信，只要怀揣热情、坚持不懈，就一定能在科技创新的道路上走得更远。</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🎯</div>
+                    <h3>我们的使命</h3>
+                    <p>通过持续学习和实践，打造一流的AI应用产品，为情绪健康等领域赋能，让先进科技惠及大众。同时，我们也希望为有志于从事科技创新的青年学子提供一个施展才华的舞台。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+        <div class="section-content">
+            <h2 class="section-title">团队介绍</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="tech-circle"></div>
+                        <span class="member-initial">韩</span>
+                    </div>
+                    <h3>韩熔</h3>
+                    <p>新加坡国立大学</p>
+                    <p>硕士研究生</p>
+                    <p class="member-role">CEO</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="tech-circle"></div>
+                        <span class="member-initial">贺</span>
+                    </div>
+                    <h3>贺思超</h3>
+                    <p>北京大学</p>
+                    <p>博士研究生</p>
+                    <p class="member-role">CTO</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="tech-circle"></div>
+                        <span class="member-initial">陈</span>
+                    </div>
+                    <h3>陈俊哲</h3>
+                    <p>约翰霍普金斯大学</p>
+                    <p>硕士研究生</p>
+                    <p class="member-role">算法工程师</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="tech-circle"></div>
+                        <span class="member-initial">李</span>
+                    </div>
+                    <h3>李宗浩</h3>
+                    <p>密歇根大学安娜堡分校</p>
+                    <p>硕士研究生</p>
+                    <p class="member-role">全栈工程师</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="tech-circle"></div>
+                        <span class="member-initial">何</span>
+                    </div>
+                    <h3>何毅</h3>
+                    <p>韦恩州立大学</p>
+                    <p>博士研究生</p>
+                    <p class="member-role">全栈工程师</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="tech-circle"></div>
+                        <span class="member-initial">薛</span>
+                    </div>
+                    <h3>薛喻锴</h3>
+                    <p>纽约大学</p>
+                    <p>硕士研究生</p>
+                    <p class="member-role">全栈工程师</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="tech-circle"></div>
+                        <span class="member-initial">袁</span>
+                    </div>
+                    <h3>袁中沆</h3>
+                    <p>中国科学技术大学</p>
+                    <p>博士研究生</p>
+                    <p class="member-role">算法工程师</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="tech-circle"></div>
+                        <span class="member-initial">胡</span>
+                    </div>
+                    <h3>胡朔</h3>
+                    <p>北京邮电大学</p>
+                    <p>硕士研究生</p>
+                    <p class="member-role">产品经理</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section">
+        <div class="section-content">
+            <h2 class="section-title">最新动态</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2024.7</h3>
+                        <p>在AdventureX 2024中，神经火花团队荣获:</p>
+                        <ul>
+                            <li>重新想象日常工作流赛道一等奖</li>
+                            <li>Moonshot Al上下文缓存赛道二等奖</li>
+                            <li>本地生活和大模型赛道二等奖</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2023.10</h3>
+                        <p>神经火花团队在2023年北京大数据技能大赛智能网联创新应用赛道荣获三等奖</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2023.7</h3>
+                        <p>神经火花(南京)科技有限公司在江苏省南京市正式注册登记</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join" class="section">
+        <div class="section-content">
+            <h2 class="section-title">加入我们</h2>
+            <div class="join-us-content">
+                <div class="join-us-text">
+                    <h3>我们希望你是这样的同学:</h3>
+                    <ul>
+                        <li>计算机、人工智能、数学等相关专业的在读本科生或研究生</li>
+                        <li>掌握至少一门编程语言，对机器学习、深度学习等技术有一定了解</li>
+                        <li>好奇心强，敢于尝试，乐于将创意转化为代码和产品</li>
+                        <li>具有良好的团队协作意识，能与成员密切配合，共同成长</li>
+                    </ul>
+                    <h3>加入我们，你将获得:</h3>
+                    <ul>
+                        <li>与一群志同道合伙伴并肩作战的机会，在实践中检验所学、提升技能</li>
+                        <li>参与前沿技术项目的机会，了解产品从0到1的打磨过程</li>
+                        <li>学习企业运作的机会，亲身体验创业的酸甜苦辣</li>
+                        <li>结识业界前辈，获得宝贵的人脉资源和发展建议</li>
+                        <li>弹性的工作时间，充分兼顾个人学习和科创实践</li>
+                    </ul>
+                    <a href="mailto:joinus@neurospark.tech" class="cta-button">立即加入我们</a>
+                </div>
+                <div class="join-us-image">
+                    <img src="joinus.jpg" alt="加入我们团队" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>电子邮件</h3>
+                    <p><a href="mailto:contact@neurospark.tech">contact@neurospark.tech</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>通讯地址</h3>
+                    <p>中国（江苏）自由贸易试验区南京片区浦滨路150号中科创新广场</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 神经火花（南京）科技有限公司。保留所有权利。</p>
+            <div class="footer-links">
+                <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">苏ICP备2023035776号-1</a>
+                <a href="https://beian.mps.gov.cn" target="_blank" rel="noopener noreferrer">苏公网安备32011202001042号</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
