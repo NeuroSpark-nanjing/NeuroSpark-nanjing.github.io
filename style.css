@@ -345,10 +345,19 @@ body {
 .team-member {
     text-align: center;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.03);
     border-radius: 15px;
     transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.team-member:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    border-color: rgba(255, 255, 255, 0.12);
 }
 
 .member-avatar {
@@ -1366,4 +1375,31 @@ body {
     outline: none;
     box-shadow: 0 0 0 2px #00f2fe;
     border-radius: 15px;
+}
+.team-member h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.team-member p:nth-of-type(1) {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.3rem;
+}
+
+.team-member p:nth-of-type(2) {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.8rem;
+}
+
+.member-role {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00f2fe;
+    padding: 0.3rem 0.8rem;
+    background: rgba(0, 242, 254, 0.1);
+    border-radius: 15px;
+    display: inline-block;
 }
