@@ -408,17 +408,13 @@ body {
 .contact-card:hover::before {
     opacity: 1;
 }
-}
 
-.contact-card:hover {
-    transform: translateY(-5px);
-    border-color: #00f2fe;
-}
-
-.contact-icon {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+/* 醒目显示赞助商名称 */
+.highlight {
     color: #00f2fe;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 242, 254, 0.5);
+    font-size: 0.9em;
 }
 
 /* Footer */
